@@ -1,0 +1,40 @@
+body {
+  background-color: #fcfca0;
+}
+
+body:hover {
+  background-color: #d7d0eb;
+}
+
+.header {
+  font-family: "Bungee Outline", cursive;
+  color: #f26ca7;
+  font-size: 100pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.header:hover {
+  color: #4da1a9;
+  font-family: "Bungee Inline", cursive;
+  font-size: 110pt;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  background-color: #d7d0eb;
+}
+
+/* .main {
+  border: solid 5px $orange;
+  border-radius: 15px;
+  height: 700px;
+} */
+/*# sourceMappingURL=index.css.map */

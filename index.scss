@@ -1,0 +1,47 @@
+//colors
+$lemon: #fcfca0;
+$orange: #ffb100;
+$pink: #f26ca7;
+$lavender: #d7d0eb;
+$turq: #4da1a9;
+
+//fonts
+
+$font-out: "Bungee Outline", cursive;
+$font-in: "Bungee Inline", cursive;
+$font-body: "Roboto", sans-serif;
+$font-big: 100pt;
+$font-small: 30pt;
+$font-bigger: 110pt;
+
+body {
+  background-color: $lemon;
+  &:hover {
+    background-color: $lavender;
+  }
+}
+
+.header {
+  font-family: $font-out;
+  color: $pink;
+  font-size: $font-big;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  &:hover {
+    color: $turq;
+    font-family: $font-in;
+    font-size: $font-bigger;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    background-color: $lavender;
+  }
+}
+
+/* .main {
+  border: solid 5px $orange;
+  border-radius: 15px;
+  height: 700px;
+} */
