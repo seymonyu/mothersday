@@ -13,6 +13,7 @@ $font-body: "Roboto", sans-serif;
 $font-big: 90pt;
 $font-small: 30pt;
 $font-bigger: 100pt;
+$font-med: 50pt;
 
 body {
   background-color: $lemon;
@@ -57,4 +58,24 @@ body {
   width: 50px;
   left: 0px;
   top: 0px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 736px) {
+  body {
+    font-size: 70pt;
+  }
+  .header {
+    font-size: 50pt;
+    color: $pink;
+    &:hover {
+      color: $turq;
+      font-family: $font-in;
+      font-size: 54pt;
+
+      background-color: $lavender;
+    }
+  }
+  .main {
+    height: 550px;
+  }
 }

@@ -53,4 +53,23 @@ body:hover {
   left: 0px;
   top: 0px;
 }
+
+@media only screen and (min-width: 100px) and (max-width: 736px) {
+  body {
+    font-size: 70pt;
+  }
+  .header {
+    font-size: 50pt;
+    color: #f26ca7;
+  }
+  .header:hover {
+    color: #4da1a9;
+    font-family: "Bungee Inline", cursive;
+    font-size: 54pt;
+    background-color: #d7d0eb;
+  }
+  .main {
+    height: 550px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
